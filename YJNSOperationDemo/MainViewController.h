@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  YJNSOperationDemo
 //
 //  Created by GongHui_YJ on 16/8/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-
