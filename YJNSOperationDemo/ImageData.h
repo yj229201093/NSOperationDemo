@@ -10,4 +10,7 @@
 
 @interface ImageData : NSObject
 
+@property (assign, nonatomic) int index;
+@property (strong, nonatomic) NSData *data;
+
 @end

@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BA5C25B1D6B1FF6006EF388 /* ImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5C25A1D6B1FF6006EF388 /* ImageData.m */; };
+		6BCC88181D6B2CA000536E89 /* NSOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC88171D6B2CA000536E89 /* NSOperationQueueViewController.m */; };
 		6BE28AA51D6ACA6D005AFD9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE28AA41D6ACA6D005AFD9F /* main.m */; };
 		6BE28AA81D6ACA6D005AFD9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE28AA71D6ACA6D005AFD9F /* AppDelegate.m */; };
-		6BE28AAB1D6ACA6D005AFD9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE28AAA1D6ACA6D005AFD9F /* ViewController.m */; };
 		6BE28AAE1D6ACA6D005AFD9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE28AAC1D6ACA6D005AFD9F /* Main.storyboard */; };
 		6BE28AB01D6ACA6D005AFD9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE28AAF1D6ACA6D005AFD9F /* Assets.xcassets */; };
 		6BE28AB31D6ACA6D005AFD9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE28AB11D6ACA6D005AFD9F /* LaunchScreen.storyboard */; };
 		6BE28ABE1D6ACA6D005AFD9F /* YJNSOperationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE28ABD1D6ACA6D005AFD9F /* YJNSOperationDemoTests.m */; };
 		6BE28AC91D6ACA6D005AFD9F /* YJNSOperationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE28AC81D6ACA6D005AFD9F /* YJNSOperationDemoUITests.m */; };
+		6BE28AD81D6AD95C005AFD9F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE28AD71D6AD95C005AFD9F /* MainViewController.m */; };
+		6BE28ADB1D6ADB83005AFD9F /* NSInvocationOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE28ADA1D6ADB83005AFD9F /* NSInvocationOperationViewController.m */; };
+		6BE28ADE1D6ADBA1005AFD9F /* NSBlockOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE28ADD1D6ADBA1005AFD9F /* NSBlockOperationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BA5C2591D6B1FF6006EF388 /* ImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageData.h; sourceTree = "<group>"; };
+		6BA5C25A1D6B1FF6006EF388 /* ImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageData.m; sourceTree = "<group>"; };
+		6BCC88161D6B2CA000536E89 /* NSOperationQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueViewController.h; sourceTree = "<group>"; };
+		6BCC88171D6B2CA000536E89 /* NSOperationQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueueViewController.m; sourceTree = "<group>"; };
 		6BE28AA01D6ACA6D005AFD9F /* YJNSOperationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJNSOperationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE28AA41D6ACA6D005AFD9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BE28AA61D6ACA6D005AFD9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BE28AA71D6ACA6D005AFD9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6BE28AA91D6ACA6D005AFD9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6BE28AAA1D6ACA6D005AFD9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6BE28AAD1D6ACA6D005AFD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BE28AAF1D6ACA6D005AFD9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BE28AB21D6ACA6D005AFD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		6BE28AC41D6ACA6D005AFD9F /* YJNSOperationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJNSOperationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE28AC81D6ACA6D005AFD9F /* YJNSOperationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJNSOperationDemoUITests.m; sourceTree = "<group>"; };
 		6BE28ACA1D6ACA6D005AFD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE28AD61D6AD95C005AFD9F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6BE28AD71D6AD95C005AFD9F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6BE28AD91D6ADB83005AFD9F /* NSInvocationOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSInvocationOperationViewController.h; sourceTree = "<group>"; };
+		6BE28ADA1D6ADB83005AFD9F /* NSInvocationOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSInvocationOperationViewController.m; sourceTree = "<group>"; };
+		6BE28ADC1D6ADBA1005AFD9F /* NSBlockOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBlockOperationViewController.h; sourceTree = "<group>"; };
+		6BE28ADD1D6ADBA1005AFD9F /* NSBlockOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBlockOperationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +115,17 @@
 			children = (
 				6BE28AA61D6ACA6D005AFD9F /* AppDelegate.h */,
 				6BE28AA71D6ACA6D005AFD9F /* AppDelegate.m */,
-				6BE28AA91D6ACA6D005AFD9F /* ViewController.h */,
-				6BE28AAA1D6ACA6D005AFD9F /* ViewController.m */,
+				6BE28AD61D6AD95C005AFD9F /* MainViewController.h */,
+				6BE28AD71D6AD95C005AFD9F /* MainViewController.m */,
 				6BE28AAC1D6ACA6D005AFD9F /* Main.storyboard */,
+				6BE28AD91D6ADB83005AFD9F /* NSInvocationOperationViewController.h */,
+				6BE28ADA1D6ADB83005AFD9F /* NSInvocationOperationViewController.m */,
+				6BE28ADC1D6ADBA1005AFD9F /* NSBlockOperationViewController.h */,
+				6BE28ADD1D6ADBA1005AFD9F /* NSBlockOperationViewController.m */,
+				6BCC88161D6B2CA000536E89 /* NSOperationQueueViewController.h */,
+				6BCC88171D6B2CA000536E89 /* NSOperationQueueViewController.m */,
+				6BA5C2591D6B1FF6006EF388 /* ImageData.h */,
+				6BA5C25A1D6B1FF6006EF388 /* ImageData.m */,
 				6BE28AAF1D6ACA6D005AFD9F /* Assets.xcassets */,
 				6BE28AB11D6ACA6D005AFD9F /* LaunchScreen.storyboard */,
 				6BE28AB41D6ACA6D005AFD9F /* Info.plist */,
@@ -270,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BE28AAB1D6ACA6D005AFD9F /* ViewController.m in Sources */,
 				6BE28AA81D6ACA6D005AFD9F /* AppDelegate.m in Sources */,
+				6BA5C25B1D6B1FF6006EF388 /* ImageData.m in Sources */,
+				6BE28AD81D6AD95C005AFD9F /* MainViewController.m in Sources */,
+				6BE28ADE1D6ADBA1005AFD9F /* NSBlockOperationViewController.m in Sources */,
 				6BE28AA51D6ACA6D005AFD9F /* main.m in Sources */,
+				6BE28ADB1D6ADB83005AFD9F /* NSInvocationOperationViewController.m in Sources */,
+				6BCC88181D6B2CA000536E89 /* NSOperationQueueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJNSOperationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yangjian.www.YJNSOperationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJNSOperationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yangjian.www.YJNSOperationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +522,7 @@
 				6BE28ACF1D6ACA6D005AFD9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BE28AD01D6ACA6D005AFD9F /* Build configuration list for PBXNativeTarget "YJNSOperationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +531,7 @@
 				6BE28AD21D6ACA6D005AFD9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BE28AD31D6ACA6D005AFD9F /* Build configuration list for PBXNativeTarget "YJNSOperationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +540,7 @@
 				6BE28AD51D6ACA6D005AFD9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
